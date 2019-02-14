@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+.html,
+body {
+  width: 100%;
+  height: 100%; }
+
+.wrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column; }
+
+section {
+  width: 100%;
+  flex: 1;
+  display: flex; }
+  section .left {
+    width: 20%; }
+    section .left ul li {
+      width: 100%;
+      height: 40px;
+      text-align: center; }
+  section .right {
+    width: 80%;
+    margin-left: 15px;
+    display: flex;
+    flex-wrap: wrap; }
+    section .right dl {
+      width: 33%;
+      text-align: center; }
+      section .right dl dt {
+        margin: 5px; }
